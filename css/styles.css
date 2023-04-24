@@ -3,7 +3,7 @@
   --primary-text: 'Roboto', sans-serif;
   --background-color-button-normal: #4d5ae5;
   --background-color-button-hover: #404bbf;
-  --titel-color: #2e2f42;
+  --color-titel: #2e2f42;
   --discription-tex-color: #434455;
 }
 
@@ -17,7 +17,8 @@
 
 /* COMPONENTS */
 body {
-  font-family: var(--primary-text);
+  font-family: 'Roboto', sans-serif;
+  background: #E5E5E5;
 }
 
 .hidden {
@@ -30,7 +31,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--titel-color);
+  color: var( --color-titel);
 }
 
 .discription-text {
@@ -39,7 +40,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--discription-tex-color);
+  color: var( --discription-tex-color);
 }
 
 .titel {
@@ -50,7 +51,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--titel-color);
+  color: var( --color-titel);
 }
 
 /* /COMPONENTS */
@@ -64,7 +65,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--titel-color);
 }
 
 .logotype-part {
@@ -122,7 +123,7 @@ body {
 }
 
 .button {
-  background: var(--background-color-button-normal);
+  background: var( --background-color-button-normal);
   font-family: var(--primary-text);
   font-weight: 500;
   font-size: 16px;
@@ -136,7 +137,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: var(--background-color-button-hover);
+  background-color: var(  --background-color-button-hover);
 }
 
 /* /MAIN PAGE */
