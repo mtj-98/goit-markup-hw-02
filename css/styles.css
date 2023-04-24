@@ -1,0 +1,142 @@
+:root {
+  --logo-text: 'Raleway', sans-serif;
+  --primary-text: 'Roboto', sans-serif;
+  --background-color-button-normal: #4d5ae5;
+  --background-color-button-hover: #404bbf;
+  --titel-color: #2e2f42;
+  --discription-tex-color: #434455;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* COMPONENTS */
+body {
+  font-family: var(--primary-text);
+}
+
+.hidden {
+  display: none;
+}
+
+.subtitel {
+  font-family: var(--primary-text);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titel-color);
+}
+
+.discription-text {
+  font-family: var(--primary-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--discription-tex-color);
+}
+
+.titel {
+  font-family: var(--primary-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--titel-color);
+}
+
+/* /COMPONENTS */
+
+/* LOGO */
+
+.logotype {
+  font-family: var(--logo-text);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logotype-part {
+  font-family: var(--logo-text);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+/* /LOGO */
+
+/* HEADER - Navigation end contacts */
+.menu-item {
+  font-family: var(--primary-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+/* /HEADER - Navigation end contacts */
+
+/* MAIN PAGE */
+
+/* Hero */
+
+.main-titel {
+  font-family: var(--primary-text);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.08;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
+
+.button {
+  background: var(--background-color-button-normal);
+  font-family: var(--primary-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--background-color-button-hover);
+}
+
+/* /MAIN PAGE */
