@@ -18,7 +18,8 @@
 /* COMPONENTS */
 body {
   font-family: 'Roboto', sans-serif;
-  background: #E5E5E5;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .hidden {
@@ -65,7 +66,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--titel-color);
+  color: #4d5ae5;
 }
 
 .logotype-part {
@@ -75,7 +76,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42
 }
 /* /LOGO */
 
