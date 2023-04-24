@@ -48,7 +48,7 @@ body {
   font-family: var(--primary-text);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -77,6 +77,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42
+}
+
+.logotype-part-footer {
+  font-family: var(--logo-text);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
 }
 /* /LOGO */
 
@@ -112,15 +122,18 @@ body {
 /* MAIN PAGE */
 
 /* Hero */
+.hero {
+  background: #2E2F42;
+}
 
 .main-titel {
   font-family: var(--primary-text);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .button {
@@ -141,4 +154,30 @@ body {
   background-color: var(  --background-color-button-hover);
 }
 
+.address {
+  font-style: normal;
+}
+
+/* Team */
+
+.team {
+  background-color: #F4F4FD;
+}
+
+
 /* /MAIN PAGE */
+
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+
+.discription-text-footer {
+  font-family: var(--primary-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
+/* /FOOTER */
