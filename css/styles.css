@@ -3,7 +3,7 @@
   --primary-text: 'Roboto', sans-serif;
   --background-color-button-normal: #4d5ae5;
   --background-color-button-hover: #404bbf;
-  --color-titel: #2e2f42;
+  --color-title: #2e2f42;
   --discription-tex-color: #434455;
 }
 
@@ -26,12 +26,12 @@ body {
   display: none;
 }
 
-.subtitel {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-titel);
+  color: var(--color-title);
 }
 
 .discription-text {
@@ -42,14 +42,14 @@ body {
   color: var(--discription-tex-color);
 }
 
-.titel {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-titel);
+  color: var(--color-title);
 }
 
 /*===============/COMPONENTS===============*/
@@ -81,7 +81,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-tite);
+  color: var(--color-title);
 }
 
 .menu-link:hover,
@@ -96,7 +96,7 @@ body {
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
