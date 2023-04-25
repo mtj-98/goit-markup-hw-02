@@ -136,9 +136,10 @@ body {
   color: #ffffff;
 }
 
-.button-filter {
-  background: #4d5ae5;
-}
+.filter-button {
+  background-color:  #f4f4fd;
+  color: #4D5AE5;
+  }
 
 .button:hover,
 .button:focus {
