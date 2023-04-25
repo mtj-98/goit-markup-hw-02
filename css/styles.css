@@ -7,7 +7,7 @@
   --discription-tex-color: #434455;
 }
 
-.list-style {
+.list {
   list-style: none;
 }
 
@@ -15,9 +15,9 @@
   text-decoration: none;
 }
 
-/* COMPONENTS */
+/* ===============COMPONENTS================= */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-text);
   color: #434455;
   background-color: #ffffff;
 }
@@ -27,37 +27,34 @@ body {
 }
 
 .subtitel {
-  font-family: var(--primary-text);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var( --color-titel);
+  color: var(--color-titel);
 }
 
 .discription-text {
-  font-family: var(--primary-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var( --discription-tex-color);
+  color: var(--discription-tex-color);
 }
 
 .titel {
-  font-family: var(--primary-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var( --color-titel);
+  color: var(--color-titel);
 }
 
-/* /COMPONENTS */
+/*===============/COMPONENTS===============*/
 
-/* LOGO */
+/* ===============LOGO=============== */
 
 .logotype {
   font-family: var(--logo-text);
@@ -69,40 +66,31 @@ body {
   color: #4d5ae5;
 }
 
-.logotype-part {
-  font-family: var(--logo-text);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42
+.logotype-part-header {
+  color: #2e2f42;
 }
 
 .logotype-part-footer {
-  font-family: var(--logo-text);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
-/* /LOGO */
+/* ===============/LOGO=============== */
 
-/* HEADER - Navigation end contacts */
-.menu-item {
-  font-family: var(--primary-text);
+/* ===============HEADER - Navigation end contacts=============== */
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-tite);
 }
 
-.menu-item:hover,
-.menu-item:focus {
-  color: #404bbf;
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--background-color-button-hover);
+}
+
+.address {
+  font-style: normal;
 }
 
 .contacts {
@@ -115,19 +103,18 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  color: #404bbf;
+  color: var(--background-color-button-hover);
 }
-/* /HEADER - Navigation end contacts */
+/* ===============/HEADER - Navigation end contacts=============== */
 
-/* MAIN PAGE */
+/* ===============MAIN PAGE=============== */
 
-/* Hero */
+/* ===============Hero=============== */
 .hero {
-  background: #2E2F42;
+  background: #2e2f42;
 }
 
 .main-titel {
-  font-family: var(--primary-text);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -137,8 +124,7 @@ body {
 }
 
 .button {
-  background: var( --background-color-button-normal);
-  font-family: var(--primary-text);
+  background: var(--background-color-button-normal);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -151,33 +137,27 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: var(  --background-color-button-hover);
+  background-color: var(--background-color-button-hover);
 }
 
-.address {
-  font-style: normal;
-}
-
-/* Team */
+/* TEAM */
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
+/* ===============/MAIN PAGE=============== */
 
-/* /MAIN PAGE */
-
-/* FOOTER */
+/* ===============FOOTER=============== */
 .footer {
   background-color: #2e2f42;
 }
 
 .discription-text-footer {
-  font-family: var(--primary-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
-/* /FOOTER */
+/* ===============/FOOTER=============== */
