@@ -1,10 +1,12 @@
 :root {
   --logo-text: 'Raleway', sans-serif;
   --primary-text: 'Roboto', sans-serif;
-  --background-color-button-normal: #4d5ae5;
-  --background-color-button-hover: #404bbf;
   --color-title: #2e2f42;
   --discription-tex-color: #434455;
+  --primary-button-bg: #4d5ae5;
+  --primary-button-color: #ffffff;
+  --primary-button-bg: #f4f4fd;
+  --batton-hover-bg: #404bbf;
 }
 
 .list {
@@ -125,7 +127,6 @@ body {
 
 .button {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color-button-normal);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -133,17 +134,25 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
-}
-
-.button-filter {
-  
+  background-color: var(--primary-button-bg);
+  color: var(--primary-button-color);
 }
 
 .button:hover,
 .button:focus {
-  background-color: var(--background-color-button-hover);
+  background-color: var(--batton-hover-bg);
 }
+
+.button-filter {
+  background-color: var(--primary-button-bg);
+color: var(--primary-button-bg);
+
+}
+
+.button-filter:hover,
+.button-filter:focus {
+color: var(--primary-button-color);
+} 
 
 /* TEAM */
 
