@@ -137,7 +137,7 @@ body {
 }
 
 .filter-button {
-  background-color:  #f4f4fd;
+  background-color: var(--background-color-button-normal)
   color: #4D5AE5;
   }
 
