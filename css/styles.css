@@ -88,7 +88,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--background-color-button-hover);
+  color: var(--batton-hover-bg);
 }
 
 .address {
@@ -105,7 +105,7 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  color: var(--background-color-button-hover);
+  color: var(--batton-hover-bg);
 }
 /* ===============/HEADER - Navigation end contacts=============== */
 
@@ -149,7 +149,7 @@ body {
 
 .button-filter {
   background-color: var(--primary-button-bg);
-  color: var(--primary-button-filter-bg: #f4f4fd;);
+  color: var(--primary-button-filter-bg);
   
 }
 
