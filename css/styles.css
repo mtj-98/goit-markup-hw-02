@@ -148,8 +148,8 @@ body {
 }
 
 .button-filter {
-  background-color: var(--primary-button-bg);
-  color: var(--primary-button-filter-bg);
+  background-color: var(--primary-button-filter-bg);
+  color: var(--primary-button-bg);;
   
 }
 
