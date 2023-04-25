@@ -125,7 +125,7 @@ body {
 
 .button {
   font-family: 'Roboto', sans-serif;
-  background: var(--background-color-button-normal);
+  background-color: var(--background-color-button-normal);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,7 +148,7 @@ body {
 }
 
 .bio-card-background {
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 /* ===============/MAIN PAGE=============== */
