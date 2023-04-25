@@ -133,13 +133,8 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
-}
-
-.filter-button {
-  background-color: var(--background-color-button-normal)
   color: #4D5AE5;
-  }
+}
 
 .button:hover,
 .button:focus {
